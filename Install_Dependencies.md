@@ -49,7 +49,7 @@ To install `spaCy` and download at least some common models (for Spanish and Eng
     python -m spacy download es
     python -m spacy download en
 
-If you have any problems with these two last commands, try to install the models as if they are Python libraries. Run:
+If you have any problems with these two last commands, try to install the models as if they were Python libraries. Run:
 
     pip install https://github.com/explosion/spacy-models/releases/download/es_core_news_sm…
     pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-…
@@ -84,7 +84,7 @@ If you have a CPU-only computer, install:
 
 If you are lucky enough to have a GPU, check the [Pytorch Get Started page](https://pytorch.org/get-started/locally/).
 
-Install the Pytorch version of BERT pretrain models.
+Finally, install the Pytorch version of BERT pretrain models.
 
     pip install pytorch_pretrained_bert
 
